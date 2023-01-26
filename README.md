@@ -1,6 +1,6 @@
 # DYNAIL
 
-## Experiment with [realworldrl-suite](https://github.com/google-research/realworldrl_suite)
+## Experiments with [realworldrl-suite](https://github.com/google-research/realworldrl_suite)
 
 ### Source Domain: Quadruped
 
