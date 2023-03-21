@@ -12,20 +12,23 @@
 
 ### Target Domain: Quadruped with Low Friction
 
+#### Direct Transfer
 <div align="center">
     <img src="media/source_expert_in_target.gif" width="200"/><img src="media/bc.gif" width="200"/>
     <br/>
     <font>source expert and behavior cloning in target domain</font>
 </div>
 
-
+#### Our Method: DYNAIL
 <div align="center">
-    <img src="media/target_expert.gif" width="200"/><img src="media/dynail.gif" width="200"/>
+    <img src="media/dynail.gif" width="200"/>
     <br/>
-    <font>target expert and dynail in target domain</font>
+    <font>DYNAIL in target domain</font>
 </div>
 
 ## Additional Experiments with More Demonstrations
+
+We increase the expert demonstrations from 40k to 80k for the existing SOTA methods (SAIL and GWIL). WIth more expert demonstrations, these baselines improve, yet DYNAIL still has superior performance with only 40k expert samples. We will update these experiments to our final version of the paper.
 
 <div align="center">
     <img src="figure/reb_cus.png" width="400"/><img src="figure/reb_dis1.png" width="400"/><img src="figure/reb_dis2.png" width="400"/>
