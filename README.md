@@ -31,13 +31,13 @@
 We increase the expert demonstrations from 40k to 80k for the existing SOTA methods (SAIL and GWIL). With more expert demonstrations, these baselines improve, yet DYNAIL still has superior performance with only 40k expert samples. We will update these experiments to our final version of the paper.
 
 <div align="center">
-    <img src="figure/reb_cus.png" width="400"/><img src="figure/reb_dis1.png" width="400"/><img src="figure/reb_dis2.png" width="400"/>
+    <img src="figures/reb_cus.png" width="400"/><img src="figures/reb_dis1.png" width="400"/><img src="figures/reb_dis2.png" width="400"/>
     <br/>
     <font>SAIL and GWIL with more demonstrations in Ant environments</font>
 </div>
 
 <div align="center">
-    <img src="figure/reb_brohalf.png" width="400"/><img src="figure/reb_halfobs.png" width="400"/>
+    <img src="figures/reb_brohalf.png" width="400"/><img src="figures/reb_halfobs.png" width="400"/>
     <br/>
     <font>SAIL and GWIL with more demonstrations in HalfCheetah environments</font>
 </div>
