@@ -1,1 +1,2 @@
 Add exps of humanoid and maze.
+Add illustrations for unhealthy termination.
