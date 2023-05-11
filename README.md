@@ -26,3 +26,55 @@
     <font>DYNAIL in target domain</font>
 </div>
 
+## Experiments with High-Dimensional Environment Humanoid
+
+### Source Domain: Humanoid-v3
+
+<div align="center">
+    <img src="media/hu_exp_sou.gif" width="200"/>
+    <br/>
+    <font>source expert in source domain</font>
+</div>
+
+### Target Domain: BrokenHumanoid-v3 (Humanoid-v3 with red broken abdomen joint)
+
+#### Direct Transfer
+<div align="center">
+    <img src="media/hu_exp_tar.gif" width="200"/><img src="media/hu_bc.gif" width="200"/>
+    <br/>
+    <font>source expert and behavior cloning in target domain</font>
+</div>
+
+#### Our Method: DYNAIL
+<div align="center">
+    <img src="media/hu_dynail.gif" width="200"/>
+    <br/>
+    <font>DYNAIL in target domain</font>
+</div>
+
+## Experiments with Maze (breaking assumptions)
+
+### Source Domain: UMaze-v0
+
+<div align="center">
+    <img src="media/maze_source.gif" width="200"/>
+    <br/>
+    <font>source expert in source domain</font>
+</div>
+
+### Target Domain: IMaze-v0 (Moving a wall in the middle of the maze)
+
+#### Direct Transfer
+<div align="center">
+    <img src="media/maze_bc.gif" width="200"/><img src="media/maze_gwil.gif" width="200"/>
+    <br/>
+    <font>behavior cloning and GWIL in target domain</font>
+</div>
+
+#### Our Method: DYNAIL
+<div align="center">
+    <img src="media/maze_dynail.gif" width="200"/>
+    <br/>
+    <font>DYNAIL in target domain</font>
+</div>
+
