@@ -44,6 +44,7 @@
     <br/>
     <font>source expert and behavior cloning in target domain</font>
 </div>
+Both the episodes above terminate because of unhealthy conditions.
 
 #### Our Method: DYNAIL
 <div align="center">
