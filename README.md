@@ -26,6 +26,8 @@
     <font>DYNAIL in target domain</font>
 </div>
 
+Our method succeeds in quadruped task with low friction.
+
 ## Experiments with High-Dimensional Environment Humanoid
 
 ### Source Domain: Humanoid-v3
@@ -52,6 +54,7 @@ Both the episodes above terminate because of unhealthy conditions.
     <br/>
     <font>DYNAIL in target domain</font>
 </div>
+Our method succeeds in humanoid task with red broken abdomen.
 
 ## Experiments with Maze (breaking assumptions)
 
@@ -63,7 +66,7 @@ Both the episodes above terminate because of unhealthy conditions.
     <font>source expert in source domain</font>
 </div>
 
-### Target Domain: IMaze-v0 (Moving a wall in the middle of the maze)
+### Target Domain: IMaze-v0 (Moving the middle wall block to the right)
 
 #### Direct Transfer
 <div align="center">
@@ -78,4 +81,5 @@ Both the episodes above terminate because of unhealthy conditions.
     <br/>
     <font>DYNAIL in target domain</font>
 </div>
+Our method succeeds in maze task with a moving wall block.
 
