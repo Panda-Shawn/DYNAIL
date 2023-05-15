@@ -19,6 +19,8 @@
     <font>source expert and behavior cloning in target domain</font>
 </div>
 
+Both of quadruped robots overturn on the groud with low friction.
+
 #### Our Method: DYNAIL
 <div align="center">
     <img src="media/dynail.gif" width="200"/>
@@ -46,7 +48,7 @@ Our method succeeds in quadruped task with low friction.
     <br/>
     <font>source expert and behavior cloning in target domain</font>
 </div>
-Both the episodes above terminate because of unhealthy conditions.
+Both of the episodes above terminate because of unhealthy conditions.
 
 #### Our Method: DYNAIL
 <div align="center">
@@ -66,6 +68,7 @@ Our method succeeds in humanoid task with red broken abdomen.
     <font>source expert in source domain</font>
 </div>
 
+
 ### Target Domain: IMaze-v0 (Moving the middle wall block to the right)
 
 #### Direct Transfer
@@ -74,6 +77,7 @@ Our method succeeds in humanoid task with red broken abdomen.
     <br/>
     <font>behavior cloning and GWIL in target domain</font>
 </div>
+Both of the baselines fail to find the way to the goal.
 
 #### Our Method: DYNAIL
 <div align="center">
@@ -82,4 +86,26 @@ Our method succeeds in humanoid task with red broken abdomen.
     <font>DYNAIL in target domain</font>
 </div>
 Our method succeeds in maze task with a moving wall block.
+
+## Experiments with a handful of demonstrations
+
+<div align="center">
+    <img src="media/Demonstrations.pdf" width="200"/>
+    <br/>
+    <font>Comparision for different amount of demonstrations</font>
+</div>
+
+We notice that the performance of 1-DYNAIL decreases a lot in the disabled ant environments and BrokenHalfCheetah-v3 as expected. Surprisingly, we can also see that in other environments, 1-DYNAIL achieves a competitive performance.
+
+## Results of approximate KL-divergence
+
+<div align="center">
+    <img src="media/kl-divergence.pdf" width="200"/>
+    <br/>
+    <font>Approximate KL-divergence</font>
+</div>
+
+We use the technique mentioned in Appendix C.2 to approximate the divergence of the final policy. And we can see that KL-divergence of DYNAIL is always lower than GWIL, which corresponds to the objective of our method.
+
+
 
