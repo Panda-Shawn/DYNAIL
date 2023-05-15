@@ -105,7 +105,7 @@ We notice that the performance of 1-DYNAIL decreases a lot in the disabled ant e
     <font>Approximate KL-divergence</font>
 </div>
 
-we use the technique mentioned in Appendix C.2 to approximate the divergence of the final policy. And we can see that KL-divergence of DYNAIL is always lower than GWIL, which corresponds to the objective of our method.
+We use the technique mentioned in Appendix C.2 to approximate the divergence of the final policy. And we can see that KL-divergence of DYNAIL is always lower than GWIL, which corresponds to the objective of our method.
 
 
 
