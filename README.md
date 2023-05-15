@@ -90,7 +90,7 @@ Our method succeeds in maze task with a moving wall block.
 ## Experiments with a handful of demonstrations
 
 <div align="center">
-    <img src="media/Demostrations.pdf" width="200"/>
+    <img src="media/Demonstrations.pdf" width="200"/>
     <br/>
     <font>Comparision for different amount of demonstrations</font>
 </div>
@@ -100,7 +100,7 @@ We notice that the performance of 1-DYNAIL decreases a lot in the disabled ant e
 ## Results of approximate KL-divergence
 
 <div align="center">
-    <img src="media/KL-divergence.pdf" width="200"/>
+    <img src="media/kl-divergence.pdf" width="200"/>
     <br/>
     <font>Approximate KL-divergence</font>
 </div>
