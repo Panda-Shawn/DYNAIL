@@ -19,6 +19,8 @@
     <font>source expert and behavior cloning in target domain</font>
 </div>
 
+Both of quadruped robots overturn on the groud with low friction.
+
 #### Our Method: DYNAIL
 <div align="center">
     <img src="media/dynail.gif" width="200"/>
@@ -46,7 +48,7 @@ Our method succeeds in quadruped task with low friction.
     <br/>
     <font>source expert and behavior cloning in target domain</font>
 </div>
-Both the episodes above terminate because of unhealthy conditions.
+Both of the episodes above terminate because of unhealthy conditions.
 
 #### Our Method: DYNAIL
 <div align="center">
@@ -66,6 +68,7 @@ Our method succeeds in humanoid task with red broken abdomen.
     <font>source expert in source domain</font>
 </div>
 
+
 ### Target Domain: IMaze-v0 (Moving the middle wall block to the right)
 
 #### Direct Transfer
@@ -74,6 +77,7 @@ Our method succeeds in humanoid task with red broken abdomen.
     <br/>
     <font>behavior cloning and GWIL in target domain</font>
 </div>
+Both of the baselines fail to find the way to the goal.
 
 #### Our Method: DYNAIL
 <div align="center">
