@@ -100,7 +100,7 @@ We notice that the performance of 1-DYNAIL decreases a lot in the disabled ant e
 ## Results of approximate KL-divergence
 
 <div align="center">
-    <img src="media/kl-divergence.pdf" width="200"/>
+    <img src="media/kl_divergence.pdf" width="200"/>
     <br/>
     <font>Approximate KL-divergence</font>
 </div>
