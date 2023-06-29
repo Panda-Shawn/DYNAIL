@@ -1,4 +1,4 @@
-# DYNAIL
+# Dynamics Adapted Imitation Learning [Accepted by TMLR]
 
 ## Experiments with [realworldrl-suite](https://github.com/google-research/realworldrl_suite)
 
