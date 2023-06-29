@@ -87,25 +87,3 @@ Both of the baselines fail to find the way to the goal.
 </div>
 Our method succeeds in maze task with a moving wall block.
 
-## Experiments with a handful of demonstrations
-
-<div align="center">
-    <img src="media/Demonstrations.png" width="600"/>
-    <br/>
-    <font>Comparision for different amount of demonstrations</font>
-</div>
-
-We notice that the performance of 1-DYNAIL decreases a lot in the disabled ant environments and BrokenHalfCheetah-v3 as expected. Surprisingly, we can also see that in other environments, 1-DYNAIL achieves a competitive performance.
-
-## Results of approximate KL-divergence
-
-<div align="center">
-    <img src="media/kl_divergence.png" width="600"/>
-    <br/>
-    <font>Approximate KL-divergence</font>
-</div>
-
-We use the technique mentioned in Appendix C.2 to approximate the divergence of the final policy. And we can see that KL-divergence of DYNAIL is always lower than GWIL, which corresponds to the objective of our method.
-
-
-
