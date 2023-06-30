@@ -45,16 +45,6 @@ if __name__ == "__main__":
     algo = GAIL
     algo_cls = f"{algo.__name__}"
 
-    # '''Register CustomAnt-v0 and DisabledAnt-v0 if needed'''
-
-    # if env_id == "CustomAnt-v0" or env_id == "DisabledAnt-v0":
-    #     import sys
-    #     sys.path.append("/root/inverse_rl")
-    #     import inverse_rl.envs
-
-    #     register_fn = inverse_rl.envs.register_custom_envs
-    #     register_fn()  # Force register
-
     '''set random seed'''
 
     seed = 2022  # 5234567
