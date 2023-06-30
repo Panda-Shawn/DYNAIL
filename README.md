@@ -18,6 +18,13 @@ pip install -e .
 
 Then replace `imitation/examples`, `imitation/src/imitation/algorithms/adversarial` and `imitation/src/imitation/util` with folders provided in this repo.
 
+## Usage
+
+1. collect the demonstrations
+A reinforcement learning algorithm (PPO or SAC) is trained to 
+   
+3. 
+
 ## Experiments with [realworldrl-suite](https://github.com/google-research/realworldrl_suite)
 
 ### Source Domain: Quadruped
