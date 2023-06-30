@@ -18,9 +18,11 @@ pip install -e .
 
 Then replace `imitation/examples`, `imitation/src/imitation/algorithms/adversarial` and `imitation/src/imitation/util` with folders provided in this repo.
 
-## Experiments with [realworldrl-suite](https://github.com/google-research/realworldrl_suite)
+## Results
 
-### Source Domain: Quadruped
+### Experiments with [realworldrl-suite](https://github.com/google-research/realworldrl_suite)
+
+#### Source Domain: Quadruped
 
 <div align="center">
     <img src="media/source_expert.gif" width="200"/>
@@ -28,9 +30,9 @@ Then replace `imitation/examples`, `imitation/src/imitation/algorithms/adversari
     <font>source expert in source domain</font>
 </div>
 
-### Target Domain: Quadruped with Low Friction
+#### Target Domain: Quadruped with Low Friction
 
-#### Direct Transfer
+##### Direct Transfer
 <div align="center">
     <img src="media/source_expert_in_target.gif" width="200"/><img src="media/bc.gif" width="200"/>
     <br/>
@@ -39,7 +41,7 @@ Then replace `imitation/examples`, `imitation/src/imitation/algorithms/adversari
 
 Both of quadruped robots overturn on the groud with low friction.
 
-#### Our Method: DYNAIL
+##### Our Method: DYNAIL
 <div align="center">
     <img src="media/dynail.gif" width="200"/>
     <br/>
@@ -48,9 +50,9 @@ Both of quadruped robots overturn on the groud with low friction.
 
 Our method succeeds in quadruped task with low friction.
 
-## Experiments with High-Dimensional Environment Humanoid
+### Experiments with High-Dimensional Environment Humanoid
 
-### Source Domain: Humanoid-v3
+#### Source Domain: Humanoid-v3
 
 <div align="center">
     <img src="media/hu_exp_sou.gif" width="200"/>
@@ -58,9 +60,9 @@ Our method succeeds in quadruped task with low friction.
     <font>source expert in source domain</font>
 </div>
 
-### Target Domain: BrokenHumanoid-v3 (Humanoid-v3 with red broken abdomen joint)
+#### Target Domain: BrokenHumanoid-v3 (Humanoid-v3 with red broken abdomen joint)
 
-#### Direct Transfer
+##### Direct Transfer
 <div align="center">
     <img src="media/hu_exp_tar.gif" width="200"/><img src="media/hu_bc.gif" width="200"/>
     <br/>
@@ -68,7 +70,7 @@ Our method succeeds in quadruped task with low friction.
 </div>
 Both of the episodes above terminate because of unhealthy conditions.
 
-#### Our Method: DYNAIL
+##### Our Method: DYNAIL
 <div align="center">
     <img src="media/hu_dynail.gif" width="200"/>
     <br/>
@@ -76,9 +78,9 @@ Both of the episodes above terminate because of unhealthy conditions.
 </div>
 Our method succeeds in humanoid task with red broken abdomen.
 
-## Experiments with Maze (breaking assumptions)
+### Experiments with Maze (breaking assumptions)
 
-### Source Domain: UMaze-v0
+#### Source Domain: UMaze-v0
 
 <div align="center">
     <img src="media/maze_source.gif" width="200"/>
@@ -87,9 +89,9 @@ Our method succeeds in humanoid task with red broken abdomen.
 </div>
 
 
-### Target Domain: IMaze-v0 (Moving the middle wall block to the right)
+#### Target Domain: IMaze-v0 (Moving the middle wall block to the right)
 
-#### Direct Transfer
+##### Direct Transfer
 <div align="center">
     <img src="media/maze_bc.gif" width="200"/><img src="media/maze_gwil.gif" width="200"/>
     <br/>
@@ -97,7 +99,7 @@ Our method succeeds in humanoid task with red broken abdomen.
 </div>
 Both of the baselines fail to find the way to the goal.
 
-#### Our Method: DYNAIL
+##### Our Method: DYNAIL
 <div align="center">
     <img src="media/maze_dynail.gif" width="200"/>
     <br/>
