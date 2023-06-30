@@ -4,7 +4,19 @@ This repo contains code accompaning the paper, [Dynamics Adapted Imitation Learn
 
 ## Dependencies
 
-The code is based on [Imitation Library](http://github.com/HumanCompatibleAI/imitation/tree/v0.2.0).
+The code is based on [Imitation v0.3.0](http://github.com/HumanCompatibleAI/imitation/tree/v0.3.0), which is a library with clean implementations of imitation and reward learning algorithms.
+
+### Install Imitation v0.3.0
+
+```
+git clone --depth 1 --branch v0.3.0 https://github.com/HumanCompatibleAI/imitation.git
+cd imitation
+pip install -e .
+```
+
+### Modifications
+
+Then replace `imitation/examples`, `imitation/src/imitation/algorithms/adversarial` and `imitation/src/imitation/util` with folders provided in this repo.
 
 ## Experiments with [realworldrl-suite](https://github.com/google-research/realworldrl_suite)
 
