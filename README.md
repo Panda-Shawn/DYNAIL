@@ -50,6 +50,8 @@ For example, we train DYNAIL in BrokenHumanoid-v3 with expert demonstrations fro
     ```
     Then, the corresponding results are saved in `./output/DYNAIL/BrokenHumanoid-v3` and `./output/GAIL/BrokenHumanoid-v3`, respectively.
 
+Other tasks can also be implemented following the instructions above.
+
 ## Results
 
 ### Experiments with [realworldrl-suite](https://github.com/google-research/realworldrl_suite)
