@@ -1,4 +1,10 @@
-# Dynamics Adapted Imitation Learning [Accepted by TMLR]
+# Dynamics Adapted Imitation Learning [TMLR]
+
+This repo contains code accompaning the paper, [Dynamics Adapted Imitation Learning](https://openreview.net/forum?id=w36pqfaJ4t). 
+
+## Dependencies
+
+The code is based on [Imitation Library](http://github.com/HumanCompatibleAI/imitation/tree/v0.2.0).
 
 ## Experiments with [realworldrl-suite](https://github.com/google-research/realworldrl_suite)
 
