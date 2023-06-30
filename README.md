@@ -16,7 +16,39 @@ pip install -e .
 
 ### Modifications
 
-Then replace `imitation/examples`, `imitation/src/imitation/algorithms/adversarial` and `imitation/src/imitation/util` with folders provided in this repo.
+Then `imitation/examples`, `imitation/src/imitation/algorithms/adversarial` and `imitation/src/imitation/util` can be replaced with the folders provided in this repo.
+
+## Usage
+For example, we train DYNAIL in BrokenHumanoid-v3 with expert demonstrations from Humanoid-v3.
+
+1. Training expert policy.
+   
+    We train an expert policy with SAC in Humanoid-v3.
+    ```
+    cd example
+    python train_human_sac.py
+    ```
+    Then the expert policy is saved in `./output/SAC/Humanoid-v3/final/model.zip`.
+
+2. Generating demonstrations.
+   
+    We use the expert policy to generate 60 rollouts in Humanoid-v3 and choose the top 40 ones as expert demonstrations.
+    ```
+    python expert_policy.py
+    ```
+    Then the demonstration are collected in `./expert/Humanoid-v3/rollout.pkl` along with reward information in `./expert/Humanoid-v3/rollout_info.txt`.
+
+3. Training imitation method.
+   
+    We train DYNAIL in BrokenHumanoid-v3 with the 40 demonstrations.
+    ```
+    python train_brohuman_dynail_sac.py
+    ```
+    For comparision, we can also train GAIFO as a baseline.
+    ```
+    python train_brohuman_gaifo_sac.py
+    ```
+    Then, the corresponding results are saved in `./output/DYNAIL/BrokenHumanoid-v3` and `./output/GAIL/BrokenHumanoid-v3`, respectively.
 
 ## Results
 
