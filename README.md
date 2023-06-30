@@ -1,6 +1,6 @@
 # Dynamics Adapted Imitation Learning [TMLR]
 
-This repo contains code accompaning the paper, [Dynamics Adapted Imitation Learning](https://openreview.net/forum?id=w36pqfaJ4t). 
+This repo contains code accompaning the paper, [Dynamics Adapted Imitation Learning](https://openreview.net/forum?id=w36pqfaJ4t). DYNAIL is an adversarial imitation learning method dealing with dynamics shift between expert demonstrations and environment.
 
 ## Dependencies
 
@@ -16,7 +16,7 @@ pip install -e .
 
 ### Modifications
 
-Then `imitation/examples`, `imitation/src/imitation/algorithms/adversarial` and `imitation/src/imitation/util` can be replaced with the folders provided in this repo.
+Then `imitation/examples`, `imitation/src/imitation/algorithms/adversarial` and `imitation/src/imitation/util` can be replaced with the folders provided in this repo. What's more, we use [mujoco-py v2.1.2.14](https://github.com/openai/mujoco-py/tree/v2.1.2.14) instead of mujoco-py v1.5 for all experiments in the paper.
 
 ## Usage
 For example, we train DYNAIL in BrokenHumanoid-v3 with expert demonstrations from Humanoid-v3.
