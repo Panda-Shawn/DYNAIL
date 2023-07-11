@@ -52,6 +52,21 @@ For example, we train DYNAIL in BrokenHumanoid-v3 with expert demonstrations fro
 
 Other tasks can also be implemented following the instructions above.
 
+## Citation
+
+```
+@article{
+liu2023dynamics,
+title={Dynamics Adapted Imitation Learning},
+author={Zixuan Liu and Liu Liu and Bingzhe Wu and Lanqing Li and Xueqian Wang and Bo Yuan and Peilin Zhao},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2023},
+url={https://openreview.net/forum?id=w36pqfaJ4t},
+note={}
+}
+```
+
 ## Results
 
 ### Experiments with [realworldrl-suite](https://github.com/google-research/realworldrl_suite)
